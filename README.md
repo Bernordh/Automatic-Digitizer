@@ -19,7 +19,7 @@ In this repository I will be posting my evolution in the development of a script
 
 # Keyboard Control
 
-To control my keyboard I made use of the "keyboard" library. It's a simple library, I didn't find any difficulty using it.
+To control my keyboard I made use of the "keyboard" library. It's a simple library, I didn't find any difficulty using it.<br/>
 <b> Example </b>
 ```py
 keyboard.write("Hello, World!")
