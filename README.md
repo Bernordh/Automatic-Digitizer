@@ -25,17 +25,17 @@ To control my keyboard I made use of the "keyboard" library. It's a simple libra
 ```py
 keyboard.write("Hello, World!")
 ```
-<b>Is this case the output is:</b>
+Is this case the output is:
 ```py
 Hello, World!
 ```
-<b>However, I wanted to write one letter at a time, just like an ordinary human does, so for that, I created a for with delay, to make typing look more "human"</b>
+However, I wanted to write one letter at a time, just like an ordinary human does, so for that, I created a for with delay, to make typing look more "human"
 ```py
 for character in sentense:
   time.sleep(0.02)
   keyboard.write(character)
 ```
-<b>With this my "writing' looks more human</b>
+>With this my "writing' looks more human
 
 # Take Screenshot
 
