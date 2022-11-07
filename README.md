@@ -10,7 +10,7 @@ In this repository I will be posting my evolution in the development of a script
 
 # Features
 
-<input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked="">
+:white_check_mark:
 
 # Keyboard Control
 
