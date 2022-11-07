@@ -19,6 +19,23 @@ In this repository I will be posting my evolution in the development of a script
 
 # Keyboard Control
 
+To control my keyboard I made use of the "keyboard" library. It's a simple library, I didn't find any difficulty using it.
+<b> Example </b>
+```py
+keyboard.write("Hello, World!")
+```
+Is this case the output is:
+```py
+Hello, World!
+```
+However, I wanted to write one letter at a time, just like an ordinary human does, so for that, I created a for with delay, to make typing look more "human"
+```py
+for character in sentense:
+  time.sleep(0.02)
+  keyboard.write(character)
+```
+With this my "writing' looks more human
+
 # Take Screenshot
 
 # Load the screenshot
