@@ -8,9 +8,14 @@
 In this repository I will be posting my evolution in the development of a script that can cheat in Type Racer
 </p>
 
-# Features
+# Libraries
 
-:white_check_mark:
+:white_check_mark: Keyboard
+:white_check_mark: Cv2
+:white_check_mark: Time
+:white_check_mark: PyTesseract
+:white_check_mark: Pyautogui
+:white_check_mark: Os
 
 # Keyboard Control
 
