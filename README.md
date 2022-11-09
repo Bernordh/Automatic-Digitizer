@@ -71,4 +71,4 @@ pytesseract.pytesseract.tesseract_cmd = "C:\Program Files\Tesseract-OCR\Tesserac
 text = pytesseract.image_to_string(img)
 print(text)
 ```
-With this you will be able to convert any image to text
+>With this you will be able to convert any image to text
