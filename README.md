@@ -60,3 +60,14 @@ img = cv2.imread("images\image.png")
 #This line of code is responsable to open the image and make the script able to "see" it.
 ```
 # Using Tesseract
+
+>To convert the image to text I used Ocr Tesseract, to use it you need to install a file available in the following directory: https://github.com/UB-Mannheim/tesser...<br/>
+>During the installation remember to save the place where it was installed, as we will need the location of the file to start the ocr<br/>
+<br> Example: <br/>
+```py
+#To start the ocr you have to put this line of code in the beginning of the script
+pytesseract.pytesseract.tesseract_cmd = "C:\Program Files\Tesseract-OCR\Tesseract.exe"
+text = pytesseract.image_to_string(img)
+print(text)
+```
+#With this you will be able to convert any image to text
