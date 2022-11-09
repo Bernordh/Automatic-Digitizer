@@ -16,7 +16,7 @@ In this repository I will be posting my evolution in the development of a script
 :white_check_mark: PyTesseract<br/>
 :white_check_mark: Pyautogui<br/>
 :white_check_mark: Os<br/>
-
+--------------------------------------------------------------
 # Keyboard Control
 
 >To control my keyboard I made use of the "keyboard" library. It's a simple library, I didn't find any difficulty using it.<br/>
@@ -36,9 +36,19 @@ for character in sentense:
   keyboard.write(character)
 ```
 With this my "writing' looks more human
-
+--------------------------------------------------------------
 # Take Screenshot
 
-# Load the screenshot
+>To take the screenshot, for now I select a specific area of my screen, however it is an imprecise method and it only works if the text appears in the same place<br/>
 
+<b> Example: <b/>
+```py
+screenshot = pyautogui.screenshot(region=(1226, 384, 407, 129))
+screenshot.save("output path here")
+```
+It works, but as I said, only for a specific region<br/>
+But I'll corret this soon
+--------------------------------------------------------------
+# Load the screenshot
+--------------------------------------------------------------
 # Using Tesseract
