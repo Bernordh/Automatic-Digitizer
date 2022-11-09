@@ -25,17 +25,17 @@ In this repository I will be posting my evolution in the development of a script
 ```py
 keyboard.write("Hello, World!")
 ```
-Is this case the output is:
+>Is this case the output is:
 ```py
 Hello, World!
 ```
-However, I wanted to write one letter at a time, just like an ordinary human does, so for that, I created a for with delay, to make typing look more "human"
+>However, I wanted to write one letter at a time, just like an ordinary human does, so for that, I created a for with delay, to make typing look more "human"
 ```py
 for character in sentense:
   time.sleep(0.02)
   keyboard.write(character)
 ```
-With this my "writing' looks more human
+>With this my "writing' looks more human
 
 # Take Screenshot
 
@@ -51,4 +51,12 @@ screenshot.save("Output path here")
 
 # Load the screenshot
 
+>To make the script be able to "see" the image I used the Cv2 library, which allows me to load the image, it's very simple to use, it didn't show any errors
+
+<br> Example: <b/>
+```py
+#First we need an image, in this case we will assume that we already have one inside a folder
+img = cv2.imread("images\image.png")
+#This line of code is responsable to open the image and make the script able to "see" it.
+```
 # Using Tesseract
