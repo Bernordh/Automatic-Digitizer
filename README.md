@@ -44,10 +44,10 @@ With this my "writing' looks more human
 <b> Example: <b/>
 ```py
 screenshot = pyautogui.screenshot(region=(1226, 384, 407, 129))
-screenshot.save("output path here")
+screenshot.save("Output path here")
 ```
 It works, but as I said, only for a specific region<br/>
-But I'll corret this soon
+But I'll corret this soon<br/>
 
 # Load the screenshot
 
