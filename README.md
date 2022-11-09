@@ -36,7 +36,7 @@ for character in sentense:
   keyboard.write(character)
 ```
 With this my "writing' looks more human
---------------------------------------------------------------
+
 # Take Screenshot
 
 >To take the screenshot, for now I select a specific area of my screen, however it is an imprecise method and it only works if the text appears in the same place<br/>
@@ -46,9 +46,9 @@ With this my "writing' looks more human
 screenshot = pyautogui.screenshot(region=(1226, 384, 407, 129))
 screenshot.save("output path here")
 ```
-It works, but as I said, only for a specific region
+It works, but as I said, only for a specific region<br/>
 But I'll corret this soon
---------------------------------------------------------------
+
 # Load the screenshot
---------------------------------------------------------------
+
 # Using Tesseract
